@@ -9,3 +9,16 @@ int main(){
                 total += i;
             }
         }
+        printf("%d\n", total);
+    }else if(X < Y){
+        int total2 = 0;
+        for (i = X; i <= Y; i++) {
+            if (i % 13 != 0) {
+                total2 +=i;
+            }
+        }
+
+        printf("%d\n", total2);
+    }
+
+}
